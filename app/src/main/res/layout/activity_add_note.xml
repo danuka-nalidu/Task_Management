@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddNoteActivity">
+    tools:context=".AddNoteActivity"
+    android:background="@drawable/background5">
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -30,10 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:hint="New Title"
-        android:textColorHint="@color/grey"
+        android:textColorHint="@color/black"
         app:endIconMode="clear_text"
         app:errorEnabled="true"
-        app:hintTextColor="@color/black"
+        app:hintTextColor="@color/orange"
         app:layout_constraintEnd_toStartOf="@id/guideline_end"
         app:layout_constraintStart_toEndOf="@id/guideline_start"
         app:layout_constraintTop_toTopOf="parent"
@@ -59,12 +60,13 @@
         android:textColorHint="@color/grey"
         app:endIconMode="clear_text"
         app:errorEnabled="true"
-        app:hintTextColor="@color/black"
+        app:hintTextColor="@color/orange"
         app:layout_constraintEnd_toStartOf="@id/guideline_end"
         app:layout_constraintStart_toEndOf="@id/guideline_start"
         app:layout_constraintTop_toBottomOf="@id/et_title"
         app:startIconDrawable="@drawable/ic_baseline_description_24"
-        app:startIconTint="@color/grey">
+        app:startIconTint="@color/grey"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -80,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        android:backgroundTint="@color/grey"
+        android:backgroundTint="@color/orange"
         android:contentDescription="Send"
         android:src="@drawable/ic_baseline_send_24"
         app:elevation="8dp"
