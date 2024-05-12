@@ -24,7 +24,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="Task Master"
+            android:label="To Do List"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
